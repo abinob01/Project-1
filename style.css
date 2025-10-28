@@ -56,13 +56,14 @@ input {
   font-size: 16px;
   border: 2px solid gray;
   text-align: center;
-  width: 85px;
+  width: 100px;
   height: 40px;
 }
 
 .btn2 {
   background-color: mediumseagreen;
   margin-top: 2px;
+  padding: 3px;
 }
 
 .dd {
@@ -94,4 +95,9 @@ input {
   padding: 5px;
   background-color: darkblue;
   color: white;
+}
+
+.M1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
 }
