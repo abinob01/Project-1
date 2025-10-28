@@ -23,7 +23,7 @@ document.querySelector('.btn2').addEventListener('click', function () {
     } else {
       newBB('💥 You Lost the Game!');
       document.querySelector('.M2').textContent = 0;
-      document.querySelector('body').style.backgroundColor = 'red';
+      document.querySelector('body').style.backgroundImage = 'url("c9.png")';
     }
   }
 });
