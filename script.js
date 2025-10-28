@@ -12,7 +12,7 @@ document.querySelector('.btn2').addEventListener('click', function () {
     if (score > Number(document.querySelector('.M3').textContent)) {
       document.querySelector('.M3').textContent = score;
     }
-    document.querySelector('body').style.backgroundColor = 'green';
+    document.querySelector('body').style.backgroundImage = 'url("c1.png")';
     document.querySelector('.dd').textContent = hiddenNumber;
     document.querySelector('.dd').style.width = '160px';
   } else if (inputGuess !== hiddenNumber) {
@@ -33,7 +33,7 @@ document.querySelector('.btn1').addEventListener('click', function () {
   score = 20;
   newBB('Start guessing...');
   document.querySelector('input').value = '';
-  document.querySelector('body').style.backgroundColor = 'bisque';
+  document.querySelector('body').style.backgroundImage = 'url("c8.png")';
   document.querySelector('.dd').textContent = '?';
   document.querySelector('.dd').style.width = '80px';
 });
